@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+body {
+  height: 100vh;
+  display: flex;
+  background: rgb(235, 227, 123);
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 60rem;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+.boxButton {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: rgb(235, 227, 123);
+  width: 130px;
+  height: 40px;
+  border-radius: 4px;
+  border: white solid 1.4px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+button:hover {
+  background: white;
+  color: rgb(235, 227, 123);
+  transition: 0.3s ease-in;
+}
